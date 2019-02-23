@@ -1,0 +1,38 @@
+site_url: https://actium.github.io
+site_name: Attic
+
+repo_url: https://github.com/actium/actium.github.io
+repo_name: actium/actium.github.io
+remote_branch: pages
+
+docs_dir: pages
+edit_uri: edit/master/pages/
+
+theme:
+  name: material
+  features:
+    - content.action.view
+    - content.action.edit
+    - content.code.annotate
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - def_list
+  - meta
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - javascripts/config.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css
+
