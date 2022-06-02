@@ -1,0 +1,12 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: S1
+              run: echo "step 1"
+            - name: S2
+              run: echo "step 2"
